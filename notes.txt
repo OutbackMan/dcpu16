@@ -1,0 +1,14 @@
+EMULATOR (with respect to word size):
+	- Memory size 
+	- Registers (with associated register enum index)
+
+MAIN LOOP:
+	- Create
+	- Load (ram contents)
+	- Run (op->tick)
+
+OP:
+	- Read PC memory
+	- Parse instruction (in relation to instruction format)
+	- Parse instruction operands
+	- Execute instruction (in relation to instruction mnemonic enums and cycle count)
